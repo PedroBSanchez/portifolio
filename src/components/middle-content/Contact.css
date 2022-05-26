@@ -1,5 +1,6 @@
 .contact-container {
-  background-color: #eee;
+  background-color: rgba(238, 238, 238, 0.911);
+  box-shadow: 15px 3px rgb(68, 68, 68, 0.863), 0em 0 2em rgb(177, 135, 85);
   background-size: cover;
   background-position: right;
   position: relative;

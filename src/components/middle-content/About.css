@@ -1,10 +1,58 @@
 .about-container {
-  background-color: #444;
-  background-size: cover;
+  background-color: rgba(68, 68, 68, 0.863);
+  box-shadow: 15px 3px rgb(68, 68, 68, 0.863), 0em 0 2em rgb(177, 135, 85);
   position: relative;
   width: 50%;
   display: flex;
   justify-content: center;
   text-align: center;
   align-items: center;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.986);
+  border: 2px solid #eee;
+  transition: 0.3s;
+  height: 425px;
+  width: 750px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.card-container-title {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+
+.card-container-image {
+  margin-left: 10%;
+  margin-top: 8%;
+  height: 80%;
+  width: 250px;
+  background-image: url("/src/assets/me2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
+.card-container-text {
+  margin-top: 8%;
+  margin-left: 5%;
+  height: 80%;
+  width: 350px;
+  padding: 10px;
+}
+
+.card-text {
+  color: #eee;
+  text-align: justify;
+  font-size: 24px;
+  font-family: "Quicksand";
 }
