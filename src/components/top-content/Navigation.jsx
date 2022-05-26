@@ -13,7 +13,7 @@ const Navigation = () => {
           <a href="#about" className="nav-button">
             Contact
           </a>
-          <a href="" className="nav-button">
+          <a href="#projects" className="nav-button">
             Projects
           </a>
         </nav>

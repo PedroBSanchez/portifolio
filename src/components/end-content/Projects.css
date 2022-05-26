@@ -1,0 +1,7 @@
+.projects-container {
+  background-color: #eee;
+  display: flex;
+  width: auto;
+  height: 100%;
+  position: relative;
+}

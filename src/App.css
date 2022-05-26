@@ -1,3 +1,8 @@
 html {
   scroll-behavior: smooth;
 }
+
+.container-teste {
+  background-color: #222;
+  height: 1000px;
+}

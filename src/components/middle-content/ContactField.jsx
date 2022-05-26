@@ -10,9 +10,9 @@ const ContactField = ({ iconType, link, user }) => {
   return (
     <>
       <div className="contactField-container">
-        {iconType == "github" && <BsGithub size={50} />}
-        {iconType == "instagram" && <BsInstagram size={50} />}
-        {iconType == "linkedin" && <BsLinkedin size={50} />}
+        {iconType == "github" && <BsGithub size={50} color="white" />}
+        {iconType == "instagram" && <BsInstagram size={50} color="white" />}
+        {iconType == "linkedin" && <BsLinkedin size={50} color="white" />}
         <a className="contactField-anchor" href={link} target="_blank">
           {user}
         </a>
