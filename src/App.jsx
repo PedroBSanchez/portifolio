@@ -1,11 +1,16 @@
+import React from "react";
 import Header from "./components/top-content/Header";
+import Middle from "./components/middle-content/Middle";
 
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <div>
+        <Header />
+      </div>
+      <Middle />
     </div>
   );
 }

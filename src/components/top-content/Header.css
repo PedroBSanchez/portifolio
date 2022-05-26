@@ -6,8 +6,9 @@
   background-size: cover;
   background-position: center center;
   width: 100%;
-  height: 939px;
-  position: absolute;
+  height: 920px;
+  position: relative;
+  display: flex;
 }
 
 .text-container {
@@ -19,6 +20,7 @@
   margin: 175px auto;
   width: 27%;
   padding: 10px;
+  height: 65px;
 }
 
 .text {

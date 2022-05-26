@@ -1,0 +1,11 @@
+.contact-container {
+  background-color: #eee;
+  background-size: cover;
+  background-position: right;
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}

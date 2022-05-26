@@ -1,0 +1,10 @@
+.about-container {
+  background-color: #444;
+  background-size: cover;
+  position: relative;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
