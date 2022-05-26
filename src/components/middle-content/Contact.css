@@ -10,3 +10,32 @@
   text-align: center;
   align-items: center;
 }
+
+.contact-card {
+  box-shadow: 0 4px 8px 0 rgba(34, 34, 34, 0.986);
+  border: 2px solid rgb(34, 34, 34);
+  transition: 0.3s;
+  height: 85%;
+  width: 80%;
+  display: block;
+  border-radius: 10px;
+}
+
+.contact-card-title {
+  position: absolute;
+  display: flex;
+  width: 50%;
+  height: auto;
+  text-align: center;
+  justify-content: center;
+  margin-left: 125px;
+  margin-top: 5px;
+}
+
+.contact-card-title-text {
+  font-family: "quicksand";
+  font-style: italic;
+  font-weight: 700;
+  color: #222;
+  text-shadow: 0px 0px 10px #222, 0px 0px 3px #222;
+}
