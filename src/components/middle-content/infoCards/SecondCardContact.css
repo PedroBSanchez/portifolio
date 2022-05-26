@@ -1,0 +1,22 @@
+.infos-container {
+  display: flex;
+  margin-left: 15%;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+.card-contact-card {
+  position: relative;
+  width: 210px;
+  height: 80%;
+  box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.5);
+  border-radius: 25px;
+  background-color: #222;
+  color: #eee;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  padding-top: 10%;
+  cursor: pointer;
+}
