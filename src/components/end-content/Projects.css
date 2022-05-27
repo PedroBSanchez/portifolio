@@ -1,7 +1,35 @@
 .projects-container {
   background-color: #eee;
-  display: flex;
+  display: block;
   width: auto;
-  height: 100%;
+  height: auto;
   position: relative;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects-title-container {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.projects-text-title {
+  font-family: "quicksand";
+  font-style: italic;
+  font-weight: 700;
+  font-size: 28px;
+  color: #222;
+}
+
+.projects-aplications-container {
+  display: flex;
+  position: relative;
+  border: 2px solid blueviolet;
+  height: 500px;
+  justify-content: center;
+  margin-top: 15px;
+  padding-top: 20px;
 }
