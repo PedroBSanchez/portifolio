@@ -12,7 +12,13 @@ const Projects = () => {
         </h1>
       </div>
       <div className="projects-aplications-container">
-        <Application applicationImage={"clock"} title={"Clock"} />
+        <Application
+          application={"clock"}
+          title={"Clock"}
+          technologies={["html", "css", "javascript"]}
+          description={"Simples projeto amigo"}
+          links={"links"}
+        />
       </div>
     </div>
   );

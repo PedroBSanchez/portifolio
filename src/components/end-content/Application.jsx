@@ -1,7 +1,11 @@
 import React, { useEffect } from "react";
 
+import ApplicationImage from "./ApplicationImage";
+import ApplicationIcon from "./ApplicationIcon";
+
 import "./Application.css";
 import clock from "../../assets/clockimage.png";
+import tasklist from "../../assets/tasklist.png";
 
 //As imagems das aplicações devem ser do tamanho de até 220x140
 
@@ -14,27 +18,19 @@ const Application = ({
   description,
   links,
 }) => {
-  let applicationImage;
-
-  switch (application) {
-    case "clock":
-      applicationImage = clock;
-      break;
-
-    default:
-      applicationImage = clock;
-      break;
-  }
-
   return (
     <div className="application-card">
       <div className="application-image">
-        <img className="application-image-img" src={applicationImage} />
+        <ApplicationImage applicationName={application} />
       </div>
       <div className="application-title">
         <h1 className="application-title-text">{title}</h1>
       </div>
-      <div className="application-technologies"></div>
+      <div className="application-technologies">
+        {technologies.map((tech, index) => (
+          <ApplicationIcon technology={tech} />
+        ))}
+      </div>
     </div>
   );
 };
