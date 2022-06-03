@@ -27,9 +27,5 @@
 .projects-aplications-container {
   display: flex;
   position: relative;
-  border: 2px solid blueviolet;
   height: 500px;
-  justify-content: center;
-  margin-top: 15px;
-  padding-top: 20px;
 }

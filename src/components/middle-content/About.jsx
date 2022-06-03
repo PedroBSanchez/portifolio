@@ -14,8 +14,14 @@ const About = () => {
         <div className="card-container-image"></div>
         <div className="card-container-text">
           <p className="card-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-            perspiciatis unde repellendus quas quis.
+            Technology lover and eager to learn more and more to create systems
+            to make our lives easier.
+            <br />
+            <br />
+            Front-End: React and React Native.
+            <br />
+            <br />
+            Back-End: NodeJs.
           </p>
         </div>
       </div>

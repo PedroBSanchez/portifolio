@@ -11,6 +11,14 @@
   text-align: center;
   justify-content: center;
   display: block;
+  cursor: pointer;
+  margin-left: 5%;
+  margin-top: 30px;
+}
+
+.application-card:hover {
+  background-color: #eee;
+  transition-duration: 2s;
 }
 
 .application-image {
@@ -20,15 +28,42 @@
   border: 2px solid #222;
 }
 
+.application-card:hover .application-image {
+  border: none;
+  height: 30%;
+  text-align: left;
+}
+
 .application-title {
   margin-top: 20px;
   height: 20%;
 }
 
-.application-title-text {
-  font-size: 30px;
+.application-card:hover .application-title {
+  text-align: left;
+  margin-left: -10px;
+}
+
+.application-text {
   font-family: "Quicksand";
+  font-weight: 700;
+}
+
+.title {
+  font-size: 30px;
   color: #eee;
+}
+
+.description {
+  color: #222;
+  font-size: 18px;
+}
+
+.link {
+  font-size: 10px;
+  text-align: left;
+  font: weight 900px;
+  color: #222;
 }
 
 .application-technologies {
@@ -38,4 +73,16 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+}
+
+.application-card:hover .application-technologies {
+  margin-top: 45%;
+}
+
+.application-card:hover .icon {
+  color: #222;
+}
+
+hr {
+  color: #222;
 }
